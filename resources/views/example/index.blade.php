@@ -2,6 +2,7 @@
 
 
 @section('content')
-<h1>Example index</h1>
-<p>Ini konten index</p>
+<label for="exampleColorInput" class="form-label"></label>
+<input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+
 @endsection
